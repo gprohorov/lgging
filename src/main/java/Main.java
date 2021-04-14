@@ -14,7 +14,7 @@ import java.time.temporal.ChronoUnit;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        System.out.println(" ---------------------   Threads -----------------");
+        System.out.println(" --------------------   Threads -----------------");
 
 
         LocalDateTime start = LocalDateTime.now();

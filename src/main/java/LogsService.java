@@ -58,10 +58,7 @@ public class LogsService {
 
 
 
-    /*    for(String log: list){
-          str += log + '\n';
-      }
-*/
+
         String fileOutput = "/home/george/Desktop/" +  "ERROR" + dateAsString + ".log";
         Files.write(Paths.get(fileOutput), sb.toString().getBytes(StandardCharsets.UTF_8));
 

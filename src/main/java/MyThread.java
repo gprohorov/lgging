@@ -33,7 +33,7 @@ public class MyThread extends Thread{
     @Override
     public void run() {
         LocalDateTime start = LocalDateTime.now();
-        logger.info( this + " has been started.");
+        logger.info( this + " has been started!");
         try {
             LogsService.getLogsCountByDate(this.getDate());
         } catch (IOException e) {
